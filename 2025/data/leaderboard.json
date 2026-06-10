@@ -1,0 +1,237 @@
+{
+  "generated": "2026-06-10T10:28:59.368080Z",
+  "teams": [
+    {
+      "id": "8cf5c05d-c0d6-4c2e-a1dc-645c74cae438",
+      "name": "jskvrna",
+      "is_baseline": false,
+      "public": {
+        "hss_mean": 0.410368238669293,
+        "hss_q5": 0.06889959354971653,
+        "hss_q25": 0.3195179668960328,
+        "hss_q50": 0.4447105259562397,
+        "hss_q75": 0.5212621027268853,
+        "hss_q95": 0.6213123089316209,
+        "corner_f1_mean": 0.5379756749456223,
+        "edge_iou_mean": 0.3417015000484332,
+        "submission_comment": "Better model for vertex prediction",
+        "datetime": "2025-06-05 20:21:42"
+      },
+      "private": {
+        "hss_mean": 0.43273723247816376,
+        "hss_q5": 0.057247987173882776,
+        "hss_q25": 0.3528497416761417,
+        "hss_q50": 0.45174333288968616,
+        "hss_q75": 0.5520627226022055,
+        "hss_q95": 0.6654500619696314,
+        "corner_f1_mean": 0.561359636497754,
+        "edge_iou_mean": 0.36109872989681796,
+        "submission_comment": "Better model for vertex prediction",
+        "datetime": "2025-06-05 20:21:42"
+      }
+    },
+    {
+      "id": "ae9cca17-1feb-4321-b80e-7a2dfa08ac30",
+      "name": "segrt",
+      "is_baseline": false,
+      "public": {
+        "hss_mean": 0.372325790769491,
+        "hss_q5": 0.060236901828563755,
+        "hss_q25": 0.2850544487123372,
+        "hss_q50": 0.4002669638258338,
+        "hss_q75": 0.47789135953158857,
+        "hss_q95": 0.6020772487614949,
+        "corner_f1_mean": 0.5119016913285195,
+        "edge_iou_mean": 0.3035953072731212,
+        "submission_comment": "allow inputs of diff sizes",
+        "datetime": "2025-06-05 21:01:07"
+      },
+      "private": {
+        "hss_mean": 0.39751539198416613,
+        "hss_q5": 0.07725347798875515,
+        "hss_q25": 0.3084681053546519,
+        "hss_q50": 0.41200898569149336,
+        "hss_q75": 0.5009548349120464,
+        "hss_q95": 0.6167920946036117,
+        "corner_f1_mean": 0.5284904609107329,
+        "edge_iou_mean": 0.32690854901478034,
+        "submission_comment": "allow inputs of diff sizes",
+        "datetime": "2025-06-05 21:01:07"
+      }
+    },
+    {
+      "id": "7131c915-0bd8-4f07-b08d-2f18cdc5e642",
+      "name": "bulkobubulko",
+      "is_baseline": false,
+      "public": {
+        "hss_mean": 0.3622488776853159,
+        "hss_q5": 0.0,
+        "hss_q25": 0.2740530568494681,
+        "hss_q50": 0.39710972251660503,
+        "hss_q75": 0.4620481331267805,
+        "hss_q95": 0.5887200706313193,
+        "corner_f1_mean": 0.46745794646712474,
+        "edge_iou_mean": 0.305908138944407,
+        "submission_comment": "",
+        "datetime": "2025-06-06 22:29:54"
+      },
+      "private": {
+        "hss_mean": 0.38268641727167685,
+        "hss_q5": 0.0,
+        "hss_q25": 0.2984955667101191,
+        "hss_q50": 0.40443535688274584,
+        "hss_q75": 0.49432992043456103,
+        "hss_q95": 0.5934069844307479,
+        "corner_f1_mean": 0.48302444147769097,
+        "edge_iou_mean": 0.32472620813151404,
+        "submission_comment": "",
+        "datetime": "2025-06-06 22:29:54"
+      }
+    },
+    {
+      "id": "465354e4-19ef-4a14-acde-18777abaaa4b",
+      "name": "donquicode",
+      "is_baseline": false,
+      "public": {
+        "hss_mean": 0.31298728110169105,
+        "hss_q5": 0.0620516064210347,
+        "hss_q25": 0.2461711986584763,
+        "hss_q50": 0.33078330139028267,
+        "hss_q75": 0.3916200409339023,
+        "hss_q95": 0.5266232716020958,
+        "corner_f1_mean": 0.4135961408572989,
+        "edge_iou_mean": 0.26124575369696346,
+        "submission_comment": "",
+        "datetime": "2025-06-06 16:01:15"
+      },
+      "private": {
+        "hss_mean": 0.3309265384489813,
+        "hss_q5": 0.05836901140837098,
+        "hss_q25": 0.25987400237534974,
+        "hss_q50": 0.34531854020689845,
+        "hss_q75": 0.41768784553271165,
+        "hss_q95": 0.5263545266142305,
+        "corner_f1_mean": 0.4310155377658616,
+        "edge_iou_mean": 0.27727130876398276,
+        "submission_comment": "",
+        "datetime": "2025-06-06 16:01:15"
+      }
+    },
+    {
+      "id": "a9820f3d-5204-4857-b6ea-798303f55811",
+      "name": "bandad",
+      "is_baseline": false,
+      "public": {
+        "hss_mean": 0.3186574980330579,
+        "hss_q5": 0.034679507857215505,
+        "hss_q25": 0.24273434145410872,
+        "hss_q50": 0.3369549363499284,
+        "hss_q75": 0.4044922880103348,
+        "hss_q95": 0.5308420748818726,
+        "corner_f1_mean": 0.4215950053300427,
+        "edge_iou_mean": 0.26505699266625155,
+        "submission_comment": "pred_vertices, pred_edges = predict_wireframe(\r\n                sample,\r\n                edge_th=25, #21.830198065062586,\r\n                marge_th=0.5, # 0.4766157474397349,\r\n                prune_to_far_th=1.5 # 2.579573934738238,\r\n            )",
+        "datetime": "2025-05-17 12:30:38"
+      },
+      "private": {
+        "hss_mean": 0.3250989238638741,
+        "hss_q5": 0.0,
+        "hss_q25": 0.24788990453000287,
+        "hss_q50": 0.3409499437623271,
+        "hss_q75": 0.4147697307262653,
+        "hss_q95": 0.5355238128801474,
+        "corner_f1_mean": 0.4345376343973115,
+        "edge_iou_mean": 0.2685011576551686,
+        "submission_comment": "pred_vertices, pred_edges = predict_wireframe(\r\n                sample,\r\n                edge_th=25, #21.830198065062586,\r\n                marge_th=0.5, # 0.4766157474397349,\r\n                prune_to_far_th=1.5 # 2.579573934738238,\r\n            )",
+        "datetime": "2025-05-17 12:30:38"
+      }
+    },
+    {
+      "id": "e8ab9f1f-9c4c-4faf-8953-888fab6acd87",
+      "name": "Xallt",
+      "is_baseline": false,
+      "public": {
+        "hss_mean": 0.23852434715831172,
+        "hss_q5": 0.0,
+        "hss_q25": 0.15880855694304027,
+        "hss_q50": 0.24775500560360295,
+        "hss_q75": 0.32418059982266045,
+        "hss_q95": 0.43010567083755186,
+        "corner_f1_mean": 0.3632426520157414,
+        "edge_iou_mean": 0.18737365102530767,
+        "submission_comment": "Just baseline from the orgs",
+        "datetime": "2025-04-11 11:54:34"
+      },
+      "private": {
+        "hss_mean": 0.2639645187632207,
+        "hss_q5": 0.0,
+        "hss_q25": 0.1764931712918692,
+        "hss_q50": 0.2732230067197692,
+        "hss_q75": 0.3603624205052362,
+        "hss_q95": 0.4897185132471682,
+        "corner_f1_mean": 0.3844235713136345,
+        "edge_iou_mean": 0.20947626904180744,
+        "submission_comment": "Just baseline from the orgs",
+        "datetime": "2025-04-11 11:54:34"
+      }
+    },
+    {
+      "id": "87d2b809-e791-477b-850e-986d858308af",
+      "name": "[orgs] handcrafted baseline",
+      "is_baseline": true,
+      "public": {
+        "hss_mean": 0.2385243471209626,
+        "hss_q5": 0.0,
+        "hss_q25": 0.15880855703708185,
+        "hss_q50": 0.24775500595023014,
+        "hss_q75": 0.32418059758077006,
+        "hss_q95": 0.4301056705723638,
+        "corner_f1_mean": 0.3632426520157414,
+        "edge_iou_mean": 0.18737365093822397,
+        "submission_comment": "",
+        "datetime": "2025-04-09 19:18:37"
+      },
+      "private": {
+        "hss_mean": 0.2639645187322092,
+        "hss_q5": 0.0,
+        "hss_q25": 0.1764931719135533,
+        "hss_q50": 0.2732230053274904,
+        "hss_q75": 0.36036242103053007,
+        "hss_q95": 0.4897185117116967,
+        "corner_f1_mean": 0.3844235713136345,
+        "edge_iou_mean": 0.20947626897279448,
+        "submission_comment": "",
+        "datetime": "2025-04-09 19:18:37"
+      }
+    },
+    {
+      "id": "e51e2d81-6016-4ea2-853a-692ae0d6da89",
+      "name": "[orgs] zeros",
+      "is_baseline": true,
+      "public": {
+        "hss_mean": 0.0,
+        "hss_q5": 0.0,
+        "hss_q25": 0.0,
+        "hss_q50": 0.0,
+        "hss_q75": 0.0,
+        "hss_q95": 0.0,
+        "corner_f1_mean": 0.0,
+        "edge_iou_mean": 0.0,
+        "submission_comment": "",
+        "datetime": "2025-04-11 01:16:07"
+      },
+      "private": {
+        "hss_mean": 0.0,
+        "hss_q5": 0.0,
+        "hss_q25": 0.0,
+        "hss_q50": 0.0,
+        "hss_q75": 0.0,
+        "hss_q95": 0.0,
+        "corner_f1_mean": 0.0,
+        "edge_iou_mean": 0.0,
+        "submission_comment": "",
+        "datetime": "2025-04-11 01:16:07"
+      }
+    }
+  ]
+}

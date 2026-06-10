@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>S23DR 2024 — Overview</title>
+  <title>S23DR 2025 — Dataset</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -11,8 +11,8 @@
   <header class="site-header">
     <div class="site-logo"></div>
     <div>
-      <div class="site-title">S23DR 2024 — Structured Semantic 3D Reconstruction</div>
-      <div class="site-subtitle">CVPR 2024 Workshop Challenge &middot; Competition closed &middot; Results archived</div>
+      <div class="site-title">S23DR 2025 — Structured Semantic 3D Reconstruction</div>
+      <div class="site-subtitle">CVPR 2025 Workshop Challenge &middot; Competition closed &middot; Results archived</div>
     </div>
   </header>
   <nav class="site-nav">
@@ -23,14 +23,6 @@
     <a class="nav-item" href="solutions.html" data-page="solutions.html">Solutions</a>
     <a class="nav-item" href="prizes.html" data-page="prizes.html">Prizes</a>
   </nav>
-  <div class="site-body" style="padding-bottom:0">
-    <div class="resource-bar">
-      <span class="resource-bar-label">Workshop slides:</span>
-      <a href="https://docs.google.com/presentation/d/1I3OB30aXegpn4BSm2O2hf3uhsCsJdCWQJjChgxYFLyo/edit?usp=sharing" target="_blank">2024</a>
-      <span class="resource-bar-sep">&middot;</span>
-      <a href="https://docs.google.com/presentation/d/1x_CTtbUFRZ69TTtuLjpezR6-m1axSUe59d4sQXtVC8Q/edit?usp=sharing" target="_blank">2025</a>
-    </div>
-  </div>
   <main class="site-body markdown-body" id="content">
     <span class="content-loading">Loading…</span>
   </main>
@@ -38,7 +30,7 @@
 <script src="https://cdn.jsdelivr.net/npm/marked@9/marked.min.js"></script>
 <script src="js/nav.js"></script>
 <script>
-  fetch('content/competition_desc.md')
+  fetch('content/dataset_desc.md')
     .then(function (r) { return r.text(); })
     .then(function (md) {
       document.getElementById('content').innerHTML = marked.parse(md);
