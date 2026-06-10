@@ -1,0 +1,402 @@
+{
+  "generated": "2026-06-10T09:09:47.018218Z",
+  "teams": [
+    {
+      "id": "e156ca81-d0ce-497a-a7fb-64b80fdd5a8d",
+      "name": "rozumden",
+      "is_baseline": false,
+      "public": {
+        "WED2": 1.918083862063776,
+        "WED_mu": 1.6738185859102293,
+        "WED_p5": 1.0901592833134772,
+        "WED_p25": 1.3262180055944959,
+        "WED_p50": 1.5705146867603594,
+        "WED_p75": 1.9099145565865516,
+        "WED_p95": 2.509918313520739,
+        "submission_comment": "c the metric, + empty solution, 2.2*nverts",
+        "datetime": "2024-06-10 20:02:04"
+      },
+      "private": {
+        "WED2": 1.9251743938324832,
+        "WED_mu": 1.671206369929,
+        "WED_p5": 1.071774971305289,
+        "WED_p25": 1.3419703883472711,
+        "WED_p50": 1.5898997873349883,
+        "WED_p75": 1.9699451178854526,
+        "WED_p95": 2.5144170242334614,
+        "submission_comment": "c the metric, + empty solution, 2.2*nverts",
+        "datetime": "2024-06-10 20:02:04"
+      }
+    },
+    {
+      "id": "3f428fd8-8554-45d3-a69e-3139cbaa13c0",
+      "name": "kc92",
+      "is_baseline": false,
+      "public": {
+        "WED2": 1.9313807416981454,
+        "WED_mu": 1.755183200146784,
+        "WED_p5": 1.3845872843941205,
+        "WED_p25": 1.5612406115535422,
+        "WED_p50": 1.6833756821870454,
+        "WED_p75": 1.8781207338655188,
+        "WED_p95": 2.355583342760607,
+        "submission_comment": "corners keep all | no_edges | dilate",
+        "datetime": "2024-06-10 21:03:32"
+      },
+      "private": {
+        "WED2": 1.9430610450021153,
+        "WED_mu": 1.68082172182506,
+        "WED_p5": 0.9246117686911769,
+        "WED_p25": 1.3654491460351543,
+        "WED_p50": 1.6800706222006367,
+        "WED_p75": 1.9599976285413052,
+        "WED_p95": 2.468290790980649,
+        "submission_comment": "final submission",
+        "datetime": "2024-06-10 21:53:46"
+      }
+    },
+    {
+      "id": "076a4e13-69cc-48e3-9813-b99d4704bf6c",
+      "name": "kcml",
+      "is_baseline": false,
+      "public": {
+        "WED2": 1.9614486308817185,
+        "WED_mu": 1.8024475485305667,
+        "WED_p5": 1.4622435268069813,
+        "WED_p25": 1.602907320606382,
+        "WED_p50": 1.7341331798948714,
+        "WED_p75": 1.9488824385692456,
+        "WED_p95": 2.347765164219718,
+        "submission_comment": "429b3c4",
+        "datetime": "2024-06-10 23:41:05"
+      },
+      "private": {
+        "WED2": 1.946568675909736,
+        "WED_mu": 1.7874798633676878,
+        "WED_p5": 1.4637365220724705,
+        "WED_p25": 1.5931746231010373,
+        "WED_p50": 1.7199099735002932,
+        "WED_p75": 1.9232368704087084,
+        "WED_p95": 2.332316190861227,
+        "submission_comment": "429b3c4",
+        "datetime": "2024-06-10 23:41:05"
+      }
+    },
+    {
+      "id": "e5b0895b-5562-4a35-8856-345c8d5326da",
+      "name": "maximivashechkin",
+      "is_baseline": false,
+      "public": {
+        "WED2": 1.9891852962852414,
+        "WED_mu": 1.8661662514962079,
+        "WED_p5": 1.550138880669335,
+        "WED_p25": 1.6954911224028708,
+        "WED_p50": 1.8433854466626194,
+        "WED_p75": 1.9832686373645954,
+        "WED_p95": 2.258004190696897,
+        "submission_comment": "",
+        "datetime": "2024-06-10 18:47:32"
+      },
+      "private": {
+        "WED2": 1.9746549415371346,
+        "WED_mu": 1.8453438536258373,
+        "WED_p5": 1.5140114691375972,
+        "WED_p25": 1.6761919673277124,
+        "WED_p50": 1.8181123259514023,
+        "WED_p75": 1.9702040642290997,
+        "WED_p95": 2.2605086450341645,
+        "submission_comment": "",
+        "datetime": "2024-06-10 13:18:58"
+      }
+    },
+    {
+      "id": "8c680e38-1b47-4a3a-b8b7-58a2b6eca41d",
+      "name": "Siromanec",
+      "is_baseline": false,
+      "public": {
+        "WED2": 2.0182479260463464,
+        "WED_mu": 1.769636923461095,
+        "WED_p5": 1.0723986304196507,
+        "WED_p25": 1.4215066993557075,
+        "WED_p50": 1.71786836804046,
+        "WED_p75": 2.1111326285175256,
+        "WED_p95": 2.5672384866374838,
+        "submission_comment": "best  mean=1.7695378948997886\r\n\r\n                                       point_radius=45,\r\n                                       max_angle=15,\r\n                                       extend=25,\r\n                                       merge_th=80.0,\r\n                                       min_missing_distance=1000.0,\r\n                                       scale_estimation_coefficient=2.54,\r\n                                       clustering_eps=150,\r\n                                       interpolation_radius=10000,\r\n                                       point_radius_scale=0.5,\r\n                                       # dist_coeff=0,\r\n                                       pointcloud_depth_coeff=1.005,\r\n                                       \r\nremoved blur\r\ndecreased number of dilations to 2\r\ndecreased kernel size to 11\r\ndecreased color range to 3.5\r\nmoved vertice stop condition after inferring the missing vertices\r\nadded mean interpolation k = 5",
+        "datetime": "2024-06-09 20:58:26"
+      },
+      "private": {
+        "WED2": 2.014380892805408,
+        "WED_mu": 1.7622180598903865,
+        "WED_p5": 1.1015732727643006,
+        "WED_p25": 1.4629399689646876,
+        "WED_p50": 1.726554319334809,
+        "WED_p75": 2.046927998974812,
+        "WED_p95": 2.554370299191028,
+        "submission_comment": "best  mean=1.7695378948997886\r\n\r\n                                       point_radius=45,\r\n                                       max_angle=15,\r\n                                       extend=25,\r\n                                       merge_th=80.0,\r\n                                       min_missing_distance=1000.0,\r\n                                       scale_estimation_coefficient=2.54,\r\n                                       clustering_eps=150,\r\n                                       interpolation_radius=10000,\r\n                                       point_radius_scale=0.5,\r\n                                       # dist_coeff=0,\r\n                                       pointcloud_depth_coeff=1.005,\r\n                                       \r\nremoved blur\r\ndecreased number of dilations to 2\r\ndecreased kernel size to 11\r\ndecreased color range to 3.5\r\nmoved vertice stop condition after inferring the missing vertices\r\nadded mean interpolation k = 5",
+        "datetime": "2024-06-09 20:58:26"
+      }
+    },
+    {
+      "id": "35ee7700-913a-4df2-b5b4-0cf9c00e5166",
+      "name": "Ana-Geneva",
+      "is_baseline": false,
+      "public": {
+        "WED2": 2.1660587130171822,
+        "WED_mu": 2.0039968300668476,
+        "WED_p5": 1.6186417301215912,
+        "WED_p25": 1.8154324281060612,
+        "WED_p50": 1.9398639976957557,
+        "WED_p75": 2.179072040914138,
+        "WED_p95": 2.554315311288944,
+        "submission_comment": "",
+        "datetime": "2024-06-10 23:44:47"
+      },
+      "private": {
+        "WED2": 2.1301259468602445,
+        "WED_mu": 1.9836829390497837,
+        "WED_p5": 1.5843981413765953,
+        "WED_p25": 1.7984499397351232,
+        "WED_p50": 1.9646695087915167,
+        "WED_p75": 2.1540186685061298,
+        "WED_p95": 2.4420253927394335,
+        "submission_comment": "",
+        "datetime": "2024-06-10 23:44:47"
+      }
+    },
+    {
+      "id": "451e0d85-73b9-411c-b65d-474fc9d88922",
+      "name": "Yurii",
+      "is_baseline": false,
+      "public": {
+        "WED2": 2.5034588402925055,
+        "WED_mu": 2.281070816410604,
+        "WED_p5": 1.5296659051489512,
+        "WED_p25": 2.0076920459391,
+        "WED_p50": 2.227969420038332,
+        "WED_p75": 2.5817215640189244,
+        "WED_p95": 3.0013362844285805,
+        "submission_comment": "",
+        "datetime": "2024-06-09 22:46:59"
+      },
+      "private": {
+        "WED2": 2.488656847690912,
+        "WED_mu": 2.2481074686352387,
+        "WED_p5": 1.631533389773639,
+        "WED_p25": 1.9241637740745845,
+        "WED_p50": 2.2098830418421245,
+        "WED_p75": 2.523436044649018,
+        "WED_p95": 3.0079800325953725,
+        "submission_comment": "",
+        "datetime": "2024-06-09 22:46:59"
+      }
+    },
+    {
+      "id": "14d5b61b-0efb-4b79-908f-f82634e5ca0e",
+      "name": "TUM Photogrammetry and Remote Sensing",
+      "is_baseline": false,
+      "public": {
+        "WED2": 3.0479247528531572,
+        "WED_mu": 2.7515836998547845,
+        "WED_p5": 1.6504636944332085,
+        "WED_p25": 2.3922475559690177,
+        "WED_p50": 2.7395619216044587,
+        "WED_p75": 3.18213623831673,
+        "WED_p95": 3.6526286371002277,
+        "submission_comment": "test 10",
+        "datetime": "2024-05-29 19:42:09"
+      },
+      "private": {
+        "WED2": 3.046705135841002,
+        "WED_mu": 2.749576314717629,
+        "WED_p5": 1.8675754832304294,
+        "WED_p25": 2.3751753583065414,
+        "WED_p50": 2.740943356921244,
+        "WED_p75": 3.138736250234552,
+        "WED_p95": 3.6495957358841338,
+        "submission_comment": "test 10",
+        "datetime": "2024-05-29 19:42:09"
+      }
+    },
+    {
+      "id": "aaa70319-dcc6-4ff7-aede-1ca4bb2aae87",
+      "name": "HAcker",
+      "is_baseline": false,
+      "public": {
+        "WED2": 3.1252015454604565,
+        "WED_mu": 2.779286743110971,
+        "WED_p5": 1.7467210027285802,
+        "WED_p25": 2.2445871296332447,
+        "WED_p50": 2.6590738301664043,
+        "WED_p75": 3.1882518675176152,
+        "WED_p95": 3.937244063103994,
+        "submission_comment": "",
+        "datetime": "2024-05-25 05:17:55"
+      },
+      "private": {
+        "WED2": 3.19070440194629,
+        "WED_mu": 2.7259665498820396,
+        "WED_p5": 1.679447782982652,
+        "WED_p25": 2.2044201756742554,
+        "WED_p50": 2.5912192605989395,
+        "WED_p75": 3.125138370838747,
+        "WED_p95": 4.254927395357891,
+        "submission_comment": "",
+        "datetime": "2024-05-25 05:17:55"
+      }
+    },
+    {
+      "id": "935b1e3b-0007-4e65-9b56-0f5114abc4ee",
+      "name": "handcrafted [baseline]",
+      "is_baseline": true,
+      "public": null,
+      "private": null
+    },
+    {
+      "id": "837a236c-b3b5-4674-9d7d-c014de3da23e",
+      "name": "cherubicxn",
+      "is_baseline": false,
+      "public": null,
+      "private": null
+    },
+    {
+      "id": "ac5fc7a7-7d2b-4662-9898-2073d8e10e90",
+      "name": "iSET",
+      "is_baseline": false,
+      "public": null,
+      "private": null
+    },
+    {
+      "id": "0adc3a7c-0ef9-4f8e-ab3c-722741f73c63",
+      "name": "georgeskaria",
+      "is_baseline": false,
+      "public": null,
+      "private": null
+    },
+    {
+      "id": "1798a28d-5f6b-4a47-a666-1efb6d39bbbe",
+      "name": "aalex87",
+      "is_baseline": false,
+      "public": null,
+      "private": null
+    },
+    {
+      "id": "3e07049a-3edf-4dd0-8780-71c45725cad6",
+      "name": "Fudan EDLAB",
+      "is_baseline": false,
+      "public": null,
+      "private": null
+    },
+    {
+      "id": "dfda855c-8ea9-4f7c-9551-d6fc3fb45adf",
+      "name": "zeros [baseline]",
+      "is_baseline": true,
+      "public": null,
+      "private": null
+    },
+    {
+      "id": "68e2e947-5d0b-4968-a3fe-64d2cd12e773",
+      "name": "mrkorch",
+      "is_baseline": false,
+      "public": null,
+      "private": null
+    },
+    {
+      "id": "b89cc849-be58-40b7-8c99-7a9176038a75",
+      "name": "Dima-Vas",
+      "is_baseline": false,
+      "public": null,
+      "private": null
+    },
+    {
+      "id": "aebad6a2-62fa-4515-9736-fb5a9a32be90",
+      "name": "difbeaver",
+      "is_baseline": false,
+      "public": null,
+      "private": null
+    },
+    {
+      "id": "06c04f36-84b7-46e9-9304-0b327f679d48",
+      "name": "snuggler",
+      "is_baseline": false,
+      "public": null,
+      "private": null
+    },
+    {
+      "id": "23b02dfa-67a9-4a62-a495-302a5da8facf",
+      "name": "segrt",
+      "is_baseline": false,
+      "public": null,
+      "private": null
+    },
+    {
+      "id": "b2310a37-1736-4902-8ae6-13838ec72999",
+      "name": "rashmip98",
+      "is_baseline": false,
+      "public": null,
+      "private": null
+    },
+    {
+      "id": "6efcb8c6-ab52-4f40-ac4e-b99bc2e94b3c",
+      "name": "beinganonymous",
+      "is_baseline": false,
+      "public": null,
+      "private": null
+    },
+    {
+      "id": "6bc84647-5186-4722-8dc8-74c184e0f6df",
+      "name": "Hunter-X",
+      "is_baseline": false,
+      "public": null,
+      "private": null
+    },
+    {
+      "id": "b221543c-eda6-411d-a7a5-2e40841605d0",
+      "name": "justuy",
+      "is_baseline": false,
+      "public": null,
+      "private": null
+    },
+    {
+      "id": "2317877e-4c7a-48ad-b6c8-2f2ebb3a9137",
+      "name": "WatsonTang98",
+      "is_baseline": false,
+      "public": null,
+      "private": null
+    },
+    {
+      "id": "6040213c-78b7-4e14-8f76-519da55ac302",
+      "name": "Bigmouth9",
+      "is_baseline": false,
+      "public": null,
+      "private": null
+    },
+    {
+      "id": "f66ee057-df48-46dc-8108-d59b724d03ce",
+      "name": "aadex",
+      "is_baseline": false,
+      "public": null,
+      "private": null
+    },
+    {
+      "id": "34c66027-c9d2-402e-99df-bf23c548b654",
+      "name": "corrosivelogic",
+      "is_baseline": false,
+      "public": null,
+      "private": null
+    },
+    {
+      "id": "bf79acca-87a1-471b-98d3-6e3202ed6215",
+      "name": "AgamP",
+      "is_baseline": false,
+      "public": null,
+      "private": null
+    },
+    {
+      "id": "b1c4aaf2-dc5e-4ee0-9e77-ce30d36bba3f",
+      "name": "bulkobubulko",
+      "is_baseline": false,
+      "public": null,
+      "private": null
+    }
+  ]
+}
