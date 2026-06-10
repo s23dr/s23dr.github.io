@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>S23DR — Structured Semantic 3D Reconstruction Challenges</title>
+  <title>S²3DR — Structured Semantic 3D Reconstruction Challenges</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f3f4f6; color: #1a1a1a; min-height: 100vh; display: flex; align-items: center; justify-content: center; }
@@ -21,17 +21,21 @@
     .year-slides a { font-size: 11px; color: #6b7280; text-decoration: none; padding: 2px 10px; border: 1px solid #e5e7eb; border-radius: 4px; transition: border-color .15s, color .15s; }
     .year-slides a:hover { border-color: #6366f1; color: #6366f1; }
     .year-slides-label { font-size: 11px; color: #9ca3af; align-self: center; }
+    .related { margin-top: 24px; padding-top: 20px; border-top: 1px solid #e5e7eb; }
+    .related-label { font-size: 11px; color: #9ca3af; text-transform: uppercase; letter-spacing: .05em; margin-bottom: 8px; }
+    .related a { display: flex; align-items: center; justify-content: space-between; padding: 10px 14px; border: 1px solid #e5e7eb; border-radius: 8px; text-decoration: none; color: #1a1a1a; font-weight: 600; font-size: 13px; transition: border-color .15s, background .15s; }
+    .related a:hover { border-color: #6366f1; background: #f5f3ff; }
   </style>
 </head>
 <body>
   <div class="card">
     <div class="logo"></div>
-    <h1>S23DR Challenges</h1>
+    <h1>S<sup>2</sup>3DR Challenges</h1>
     <p class="subtitle">Structured Semantic 3D Reconstruction &mdash; CVPR Workshop Series</p>
     <ul class="year-list">
       <li>
         <a href="2026/">
-          S23DR 2026
+          <span style="white-space:nowrap">S<sup>2</sup>3DR 2026</span>
           <span class="badge workshop">CVPR 2026 · archived</span>
         </a>
         <div class="year-slides">
@@ -41,7 +45,7 @@
       </li>
       <li>
         <a href="2025/">
-          S23DR 2025
+          <span style="white-space:nowrap">S<sup>2</sup>3DR 2025</span>
           <span class="badge">CVPR 2025 · archived</span>
         </a>
         <div class="year-slides">
@@ -51,7 +55,7 @@
       </li>
       <li>
         <a href="2024/">
-          S23DR 2024
+          <span style="white-space:nowrap">S<sup>2</sup>3DR 2024</span>
           <span class="badge">CVPR 2024 · archived</span>
         </a>
         <div class="year-slides">
@@ -60,6 +64,13 @@
         </div>
       </li>
     </ul>
+    <div class="related">
+      <div class="related-label">Related workshops</div>
+      <a href="https://usm3d.github.io" target="_blank">
+        Urban Scene Modeling in 3D (USM3D)
+        <span class="badge">↗</span>
+      </a>
+    </div>
   </div>
 </body>
 </html>
