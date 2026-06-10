@@ -33,7 +33,9 @@ function renderTable() {
 
     // Medal for top 3 non-baseline teams with a score
     var rankDisplay = String(rank);
+    var medalIdx = -1;
     if (!isBaseline && score && medalCount < 3) {
+      medalIdx = medalCount;
       rankDisplay = MEDALS[medalCount] + ' ' + rank;
       medalCount++;
     }
@@ -49,7 +51,7 @@ function renderTable() {
       + (comment ? escHtml(comment) : '&mdash;') + '</td>';
 
     // Row class
-    var rowClass = isBaseline ? 'baseline' : (rank <= 3 ? 'rank-' + rank : '');
+    var rowClass = isBaseline ? 'baseline' : (medalIdx >= 0 ? 'rank-' + (medalIdx + 1) : '');
 
     // Team name: strip [baseline] tag and show as separate badge
     var displayName = escHtml(team.name.replace(/\s*\[baseline\]/i, '').trim());
@@ -70,7 +72,7 @@ function switchTab(tab) {
   activeTab = tab;
   document.getElementById('tab-private').classList.toggle('active', tab === 'private');
   document.getElementById('tab-public').classList.toggle('active', tab === 'public');
-  renderTable();
+  if (leaderboardData) renderTable();
 }
 
 fetch('data/leaderboard.json')
