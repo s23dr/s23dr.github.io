@@ -41,11 +41,11 @@ The metric is computed separately for each scene and averaged. Higher is better.
 
 ## Organizers
 
-Jack Langerman (Apple Inc), Dmytro Mishkin (CTU in Prague / Hover), Yuzhong Huang (Hover Inc.)
+Jack Langerman (Apple Inc), Dmytro Mishkin (CTU in Prague / [Hover](https://hover.to)), Yuzhong Huang ([Hover Inc.](https://hover.to)), Anastasiia Mishchuk ([Hover Inc.](https://hover.to))
 
 ## Sponsors
 
-The organizers would like to thank Hover Inc. for their sponsorship of this challenge and dataset.
+The organizers would like to thank [Hover Inc.](https://hover.to) for their sponsorship of this challenge and dataset.
 
 ## Prizes
 

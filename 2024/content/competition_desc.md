@@ -126,10 +126,10 @@ Submitted script is run on the instance with 8 vCPU, 30 GB RAM and Nvidia T4 GPU
 If submission is not finished within 2 hours, it produces no score. 
 
 ## Organizers
-Jack Langerman (Hover), Dmytro Mishkin (CTU in Prague / Hover), Ilke Demir (Intel), Hanzhi Chen (TUM), Daoyi Gao (TUM), Caner Korkmaz (ICL), Tolga Birdal (ICL)
+Jack Langerman ([Hover](https://hover.to)), Dmytro Mishkin (CTU in Prague / [Hover](https://hover.to)), Ilke Demir (Intel), Hanzhi Chen (TUM), Daoyi Gao (TUM), Caner Korkmaz (ICL), Tolga Birdal (ICL)
 
 ## Sponsors 
-The organizers would like to thank Hover Inc. for their sponsorship of this challenge and dataset.
+The organizers would like to thank [Hover Inc.](https://hover.to) for their sponsorship of this challenge and dataset.
 
 ## Timeline
 - Competition Released: March 14, 2024
