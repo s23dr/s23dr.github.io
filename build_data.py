@@ -6,7 +6,7 @@ from pathlib import Path
 DS_BASE = Path("/Users/dmytromishkin/dev/old_hf_s23dr_prev_years/S23DR_2024_ds")
 TEAMS_FILE = DS_BASE / "teams.json"
 SUBMISSION_INFO_DIR = DS_BASE / "submission_info"
-OUT_FILE = Path("data/leaderboard.json")
+OUT_FILE = Path("2024/data/leaderboard.json")
 
 SCORE_KEYS = ["WED2", "WED_mu", "WED_p5", "WED_p25", "WED_p50", "WED_p75", "WED_p95"]
 
@@ -16,6 +16,11 @@ def best_selected(submissions, score_field):
         s for s in submissions
         if s.get("selected") and s.get(score_field) and s[score_field].get("WED2") is not None
     ]
+    if not candidates:
+        candidates = [
+            s for s in submissions
+            if s.get(score_field) and s[score_field].get("WED2") is not None
+        ]
     if not candidates:
         return None
     best = min(candidates, key=lambda s: s[score_field]["WED2"])
@@ -44,6 +49,9 @@ def main():
             subs = data.get("submissions", [])
             public_entry = best_selected(subs, "public_score")
             private_entry = best_selected(subs, "private_score")
+
+        if public_entry is None and private_entry is None:
+            continue
 
         result.append({
             "id": team_id,
