@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>S23DR 2024 — Leaderboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="site-wrapper">
+  <header class="site-header">
+    <div class="site-logo"></div>
+    <div>
+      <div class="site-title">S23DR 2024 — Structured Semantic 3D Reconstruction</div>
+      <div class="site-subtitle">CVPR 2024 Workshop Challenge &middot; Competition closed &middot; Results archived</div>
+    </div>
+  </header>
+  <nav class="site-nav">
+    <a class="nav-item" href="index.html" data-page="index.html">Overview</a>
+    <a class="nav-item" href="dataset.html" data-page="dataset.html">Dataset</a>
+    <a class="nav-item" href="rules.html" data-page="rules.html">Rules</a>
+    <a class="nav-item" href="leaderboard.html" data-page="leaderboard.html">Leaderboard</a>
+  </nav>
+  <div class="site-body">
+    <div class="lb-tabs">
+      <button class="lb-tab active" id="tab-private" onclick="switchTab('private')">Private</button>
+      <button class="lb-tab" id="tab-public" onclick="switchTab('public')">Public</button>
+    </div>
+    <div class="lb-info">
+      Best selected submission per team &middot; ranked by WED2 (lower is better) &middot;
+      <span id="lb-generated"></span>
+    </div>
+    <div class="lb-table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Rank</th>
+            <th>Team</th>
+            <th>WED2</th>
+            <th>WED_mu</th>
+            <th>WED_p5</th>
+            <th>WED_p25</th>
+            <th>WED_p50</th>
+            <th>WED_p75</th>
+            <th>WED_p95</th>
+            <th>Comment</th>
+          </tr>
+        </thead>
+        <tbody id="lb-tbody">
+          <tr><td colspan="10" class="content-loading">Loading…</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="lb-note">Ranked by WED2 — lower is better. Baselines shown in-place, greyed out.</p>
+  </div>
+</div>
+<script src="js/nav.js"></script>
+<script src="js/leaderboard.js"></script>
+</body>
+</html>
