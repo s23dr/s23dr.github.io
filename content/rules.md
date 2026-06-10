@@ -45,7 +45,7 @@ To be eligible for prizes, an entry must be submitted in accordance with the ins
  
 ## IV.	Evaluation
 
-Participants must enter their submission by using [submission page](#)
+Participants must enter their submission by using the competition submission page (submissions are now closed).
  
 ## V.  	Prizes
 

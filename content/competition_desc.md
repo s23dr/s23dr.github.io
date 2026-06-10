@@ -86,13 +86,13 @@ This is a [script competition](https://huggingface.co/docs/competitions/en/creat
 
 >Script competitions are competitions where the participants submit a python script that takes in the test set and outputs the predictions. The predictions are then evaluated against `solution.csv` (or a solution file) using the evaluation metric provided by the competition creator. These competitions are only free to host if you use cpu-basic as the backend for evaluation, and this is not recommended! In script competition, the test data can be kept private. The participants wont be able to see the test data at all. The participants submit a huggingface model repo containing script.py which is run to generate predictions on hidden test data.
 
-To participate in this competition you will submit a huggingface model repo containing a `script.py` file which will compute your solution on the test data for the public and private leaderboads. Your solution will be evaluated based on a [modified version](#) of the Wire Frame Edit Distance (WED).
+To participate in this competition you will submit a huggingface model repo containing a `script.py` file which will compute your solution on the test data for the public and private leaderboads. Your solution will be evaluated based on a [modified version](https://huggingface.co/usm3d/tools/blob/main/hoho/wed.py) of the Wire Frame Edit Distance (WED).
 
 ### Metric
 
 Here is a description of the WED metric, adopted from paper <a href="https://openreview.net/pdf?id=8X2eaSZxTP" target="_blank">"PC2WF: 3D Wireframe Reconstruction from Raw Point Clouds"</a>, the figure is also taken from the paper.
 
-![](assets/WED.png)
+*(Figure from the [PC2WF paper](https://openreview.net/pdf?id=8X2eaSZxTP))*
 
 - First, the vertices are matched to ground truth using a Sinkhorn algorithm (this is different from the paper which uses Nearest Neighbors). 
 - Then the matched vertices are moved to GT locations
