@@ -72,9 +72,9 @@ Submitted script is run on the instance with 8 vCPU, 30 GB RAM and Nvidia T4 GPU
 If submission is not finished within 2 hours, it produces no score. 
 
 ## Organizers
-Jack Langerman (Independent Researcher*), Dmytro Mishkin (CTU in Prague / [Hover](https://hover.to)), Yuzhong Huang (USC / [Hover](https://hover.to))
+Jack Langerman (Independent Researcher*), Dmytro Mishkin (CTU in Prague / Hover), Yuzhong Huang (USC / Hover)
 
-*Now at Apple, formally at [Hover](https://hover.to)
+*Now at Apple, formally at Hover
 
 ## Sponsors 
 The organizers would like to thank [Hover Inc.](https://hover.to) for their sponsorship of this challenge and dataset.

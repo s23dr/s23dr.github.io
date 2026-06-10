@@ -100,7 +100,7 @@ See the list of classes in "Dataset" section in the navigation bar.
 ade20k is a standard ADE20K segmentation model (specifically, [shi-labs/oneformer_ade20k_swin_large](https://huggingface.co/shi-labs/oneformer_ade20k_swin_large).
 
 ### Organizers
-Jack Langerman (Apple Inc), Dmytro Mishkin (CTU in Prague / [Hover](https://hover.to)), Yuzhong Huang ([Hover Inc.](https://hover.to)).
+Jack Langerman (Apple Inc), Dmytro Mishkin (CTU in Prague / Hover), Yuzhong Huang (Hover Inc.).
 
 ### Sponsors
 The organizers would like to thank [Hover Inc.](https://hover.to) for their sponsorship of this challenge and dataset.
