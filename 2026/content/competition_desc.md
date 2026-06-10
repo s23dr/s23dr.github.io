@@ -30,6 +30,15 @@ where a predicted vertex is considered a true positive if it is within 50 cm of 
 
 The metric is computed separately for each scene and averaged. Higher is better.
 
+## Timeline
+
+| Phase | Date |
+|-------|------|
+| Competition Opens | 12 Mar 2026 |
+| Team Merging Deadline | 20 May 2026 |
+| Final Submission | 28 May 2026 |
+| Writeup Deadline | 30 May 2026 |
+
 ## Organizers
 
 Jack Langerman (Apple Inc), Dmytro Mishkin (CTU in Prague / Hover), Yuzhong Huang (Hover Inc.)
