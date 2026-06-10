@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-10T09:09:47.018218Z",
+  "generated": "2026-06-10T10:02:11.740287Z",
   "teams": [
     {
       "id": "e156ca81-d0ce-497a-a7fb-64b80fdd5a8d",
@@ -191,6 +191,33 @@
       }
     },
     {
+      "id": "3e07049a-3edf-4dd0-8780-71c45725cad6",
+      "name": "Fudan EDLAB",
+      "is_baseline": false,
+      "public": {
+        "WED2": 3.027124749402723,
+        "WED_mu": 2.702799957349893,
+        "WED_p5": 1.7226854370357463,
+        "WED_p25": 2.3067921518919237,
+        "WED_p50": 2.7200479411429104,
+        "WED_p75": 3.112492752710824,
+        "WED_p95": 3.658526349715366,
+        "submission_comment": "edge th 10, merge th 1",
+        "datetime": "2024-05-26 18:13:58"
+      },
+      "private": {
+        "WED2": 3.0114406695785862,
+        "WED_mu": 2.707528924602059,
+        "WED_p5": 1.817099523739572,
+        "WED_p25": 2.30959629197113,
+        "WED_p50": 2.7027338011644653,
+        "WED_p75": 3.1046485848553957,
+        "WED_p95": 3.6240592829692346,
+        "submission_comment": "edge th 10, merge th 1",
+        "datetime": "2024-05-26 18:13:58"
+      }
+    },
+    {
       "id": "14d5b61b-0efb-4b79-908f-f82634e5ca0e",
       "name": "TUM Photogrammetry and Remote Sensing",
       "is_baseline": false,
@@ -215,6 +242,222 @@
         "WED_p95": 3.6495957358841338,
         "submission_comment": "test 10",
         "datetime": "2024-05-29 19:42:09"
+      }
+    },
+    {
+      "id": "1798a28d-5f6b-4a47-a666-1efb6d39bbbe",
+      "name": "aalex87",
+      "is_baseline": false,
+      "public": {
+        "WED2": 3.1609093536737074,
+        "WED_mu": 2.879872520130738,
+        "WED_p5": 2.0673005284884036,
+        "WED_p25": 2.511386194385249,
+        "WED_p50": 2.9262269068830777,
+        "WED_p75": 3.2530049520451945,
+        "WED_p95": 3.676628634007306,
+        "submission_comment": "",
+        "datetime": "2024-05-15 23:52:25"
+      },
+      "private": {
+        "WED2": 3.122319809284551,
+        "WED_mu": 2.8649267510286935,
+        "WED_p5": 2.0646735767257343,
+        "WED_p25": 2.5391031041813346,
+        "WED_p50": 2.875247414825331,
+        "WED_p75": 3.176799752295657,
+        "WED_p95": 3.6267852619996277,
+        "submission_comment": "",
+        "datetime": "2024-05-15 23:52:25"
+      }
+    },
+    {
+      "id": "dfda855c-8ea9-4f7c-9551-d6fc3fb45adf",
+      "name": "zeros [baseline]",
+      "is_baseline": true,
+      "public": {
+        "WED2": 3.1609093536737074,
+        "WED_mu": 2.879872520130738,
+        "WED_p5": 2.0673005284884036,
+        "WED_p25": 2.511386194385249,
+        "WED_p50": 2.9262269068830777,
+        "WED_p75": 3.2530049520451945,
+        "WED_p95": 3.676628634007306,
+        "submission_comment": "[benchmark] empty solution",
+        "datetime": "2024-05-22 23:22:30"
+      },
+      "private": {
+        "WED2": 3.122319809284551,
+        "WED_mu": 2.8649267510286935,
+        "WED_p5": 2.0646735767257343,
+        "WED_p25": 2.5391031041813346,
+        "WED_p50": 2.875247414825331,
+        "WED_p75": 3.176799752295657,
+        "WED_p95": 3.6267852619996277,
+        "submission_comment": "[benchmark] empty solution",
+        "datetime": "2024-05-22 23:22:30"
+      }
+    },
+    {
+      "id": "68e2e947-5d0b-4968-a3fe-64d2cd12e773",
+      "name": "mrkorch",
+      "is_baseline": false,
+      "public": {
+        "WED2": 3.1217910283519763,
+        "WED_mu": 2.740253007445165,
+        "WED_p5": 1.7338745314086526,
+        "WED_p25": 2.2273202672764736,
+        "WED_p50": 2.656146572223713,
+        "WED_p75": 3.1407132718069177,
+        "WED_p95": 3.96897350538705,
+        "submission_comment": "- `merge_vertices_3d` threshold of 2",
+        "datetime": "2024-05-26 16:31:16"
+      },
+      "private": {
+        "WED2": 3.122319809284551,
+        "WED_mu": 2.8649267510286935,
+        "WED_p5": 2.0646735767257343,
+        "WED_p25": 2.5391031041813346,
+        "WED_p50": 2.875247414825331,
+        "WED_p75": 3.176799752295657,
+        "WED_p95": 3.6267852619996277,
+        "submission_comment": "Example submission from the prepared notebook.",
+        "datetime": "2024-05-26 15:08:55"
+      }
+    },
+    {
+      "id": "b221543c-eda6-411d-a7a5-2e40841605d0",
+      "name": "justuy",
+      "is_baseline": false,
+      "public": {
+        "WED2": 3.1609093536737074,
+        "WED_mu": 2.879872520130738,
+        "WED_p5": 2.0673005284884036,
+        "WED_p25": 2.511386194385249,
+        "WED_p50": 2.9262269068830777,
+        "WED_p75": 3.2530049520451945,
+        "WED_p95": 3.676628634007306,
+        "submission_comment": "test",
+        "datetime": "2024-06-08 14:48:41"
+      },
+      "private": {
+        "WED2": 3.122319809284551,
+        "WED_mu": 2.8649267510286935,
+        "WED_p5": 2.0646735767257343,
+        "WED_p25": 2.5391031041813346,
+        "WED_p50": 2.875247414825331,
+        "WED_p75": 3.176799752295657,
+        "WED_p95": 3.6267852619996277,
+        "submission_comment": "test",
+        "datetime": "2024-06-08 14:48:41"
+      }
+    },
+    {
+      "id": "6bc84647-5186-4722-8dc8-74c184e0f6df",
+      "name": "Hunter-X",
+      "is_baseline": false,
+      "public": {
+        "WED2": 3.092312540331394,
+        "WED_mu": 2.7043333774979867,
+        "WED_p5": 1.7990792987110007,
+        "WED_p25": 2.236697792330581,
+        "WED_p50": 2.5623822703148695,
+        "WED_p75": 3.078884854231225,
+        "WED_p95": 4.010221973181325,
+        "submission_comment": "",
+        "datetime": "2024-05-29 13:06:44"
+      },
+      "private": {
+        "WED2": 3.1386111242174164,
+        "WED_mu": 2.7574482759054084,
+        "WED_p5": 1.8172945788640371,
+        "WED_p25": 2.2378299281672023,
+        "WED_p50": 2.6323684015099547,
+        "WED_p75": 3.1403528629268402,
+        "WED_p95": 4.026016695236887,
+        "submission_comment": "",
+        "datetime": "2024-05-29 13:06:44"
+      }
+    },
+    {
+      "id": "06c04f36-84b7-46e9-9304-0b327f679d48",
+      "name": "snuggler",
+      "is_baseline": false,
+      "public": {
+        "WED2": 3.1252015454604565,
+        "WED_mu": 2.779286743110971,
+        "WED_p5": 1.7467210027285802,
+        "WED_p25": 2.2445871296332447,
+        "WED_p50": 2.6590738301664043,
+        "WED_p75": 3.1882518675176152,
+        "WED_p95": 3.937244063103994,
+        "submission_comment": "Initial submission",
+        "datetime": "2024-05-27 08:43:30"
+      },
+      "private": {
+        "WED2": 3.183780944842401,
+        "WED_mu": 2.725975761490704,
+        "WED_p5": 1.667194822183969,
+        "WED_p25": 2.2189019681311466,
+        "WED_p50": 2.6030904171790827,
+        "WED_p75": 3.1011526189064416,
+        "WED_p95": 4.222276655857416,
+        "submission_comment": "Enhanced Feature Extraction - Trial 1",
+        "datetime": "2024-05-27 09:50:38"
+      }
+    },
+    {
+      "id": "935b1e3b-0007-4e65-9b56-0f5114abc4ee",
+      "name": "handcrafted [baseline]",
+      "is_baseline": true,
+      "public": {
+        "WED2": 3.125201545460456,
+        "WED_mu": 2.779286743110971,
+        "WED_p5": 1.7467210027285802,
+        "WED_p25": 2.2445871296332447,
+        "WED_p50": 2.6590738301664043,
+        "WED_p75": 3.1882518675176152,
+        "WED_p95": 3.9372440631039938,
+        "submission_comment": "",
+        "datetime": "2024-03-15 18:05:59"
+      },
+      "private": {
+        "WED2": 3.19070440194629,
+        "WED_mu": 2.7259665498820396,
+        "WED_p5": 1.6794477829826517,
+        "WED_p25": 2.2044201756742554,
+        "WED_p50": 2.5912192605989395,
+        "WED_p75": 3.125138370838747,
+        "WED_p95": 4.254927395357891,
+        "submission_comment": "",
+        "datetime": "2024-03-15 18:05:59"
+      }
+    },
+    {
+      "id": "ac5fc7a7-7d2b-4662-9898-2073d8e10e90",
+      "name": "iSET",
+      "is_baseline": false,
+      "public": {
+        "WED2": 3.125201545460456,
+        "WED_mu": 2.779286743110971,
+        "WED_p5": 1.7467210027285802,
+        "WED_p25": 2.2445871296332447,
+        "WED_p50": 2.6590738301664043,
+        "WED_p75": 3.1882518675176152,
+        "WED_p95": 3.9372440631039938,
+        "submission_comment": "",
+        "datetime": "2024-04-17 00:31:03"
+      },
+      "private": {
+        "WED2": 3.19070440194629,
+        "WED_mu": 2.7259665498820396,
+        "WED_p5": 1.6794477829826517,
+        "WED_p25": 2.2044201756742554,
+        "WED_p50": 2.5912192605989395,
+        "WED_p75": 3.125138370838747,
+        "WED_p95": 4.254927395357891,
+        "submission_comment": "",
+        "datetime": "2024-04-17 00:31:03"
       }
     },
     {
@@ -245,158 +488,85 @@
       }
     },
     {
-      "id": "935b1e3b-0007-4e65-9b56-0f5114abc4ee",
-      "name": "handcrafted [baseline]",
-      "is_baseline": true,
-      "public": null,
-      "private": null
-    },
-    {
-      "id": "837a236c-b3b5-4674-9d7d-c014de3da23e",
-      "name": "cherubicxn",
-      "is_baseline": false,
-      "public": null,
-      "private": null
-    },
-    {
-      "id": "ac5fc7a7-7d2b-4662-9898-2073d8e10e90",
-      "name": "iSET",
-      "is_baseline": false,
-      "public": null,
-      "private": null
-    },
-    {
-      "id": "0adc3a7c-0ef9-4f8e-ab3c-722741f73c63",
-      "name": "georgeskaria",
-      "is_baseline": false,
-      "public": null,
-      "private": null
-    },
-    {
-      "id": "1798a28d-5f6b-4a47-a666-1efb6d39bbbe",
-      "name": "aalex87",
-      "is_baseline": false,
-      "public": null,
-      "private": null
-    },
-    {
-      "id": "3e07049a-3edf-4dd0-8780-71c45725cad6",
-      "name": "Fudan EDLAB",
-      "is_baseline": false,
-      "public": null,
-      "private": null
-    },
-    {
-      "id": "dfda855c-8ea9-4f7c-9551-d6fc3fb45adf",
-      "name": "zeros [baseline]",
-      "is_baseline": true,
-      "public": null,
-      "private": null
-    },
-    {
-      "id": "68e2e947-5d0b-4968-a3fe-64d2cd12e773",
-      "name": "mrkorch",
-      "is_baseline": false,
-      "public": null,
-      "private": null
-    },
-    {
-      "id": "b89cc849-be58-40b7-8c99-7a9176038a75",
-      "name": "Dima-Vas",
-      "is_baseline": false,
-      "public": null,
-      "private": null
-    },
-    {
       "id": "aebad6a2-62fa-4515-9736-fb5a9a32be90",
       "name": "difbeaver",
       "is_baseline": false,
-      "public": null,
-      "private": null
-    },
-    {
-      "id": "06c04f36-84b7-46e9-9304-0b327f679d48",
-      "name": "snuggler",
-      "is_baseline": false,
-      "public": null,
-      "private": null
+      "public": {
+        "WED2": 3.1252015454604565,
+        "WED_mu": 2.779286743110971,
+        "WED_p5": 1.7467210027285802,
+        "WED_p25": 2.2445871296332447,
+        "WED_p50": 2.6590738301664043,
+        "WED_p75": 3.1882518675176152,
+        "WED_p95": 3.937244063103994,
+        "submission_comment": "test",
+        "datetime": "2024-05-27 06:47:23"
+      },
+      "private": {
+        "WED2": 3.19070440194629,
+        "WED_mu": 2.7259665498820396,
+        "WED_p5": 1.679447782982652,
+        "WED_p25": 2.2044201756742554,
+        "WED_p50": 2.5912192605989395,
+        "WED_p75": 3.125138370838747,
+        "WED_p95": 4.254927395357891,
+        "submission_comment": "test",
+        "datetime": "2024-05-27 06:47:23"
+      }
     },
     {
       "id": "23b02dfa-67a9-4a62-a495-302a5da8facf",
       "name": "segrt",
       "is_baseline": false,
-      "public": null,
-      "private": null
+      "public": {
+        "WED2": 3.1252015454604565,
+        "WED_mu": 2.779286743110971,
+        "WED_p5": 1.7467210027285802,
+        "WED_p25": 2.2445871296332447,
+        "WED_p50": 2.6590738301664043,
+        "WED_p75": 3.1882518675176152,
+        "WED_p95": 3.937244063103994,
+        "submission_comment": "test",
+        "datetime": "2024-05-27 13:52:19"
+      },
+      "private": {
+        "WED2": 3.19070440194629,
+        "WED_mu": 2.7259665498820396,
+        "WED_p5": 1.679447782982652,
+        "WED_p25": 2.2044201756742554,
+        "WED_p50": 2.5912192605989395,
+        "WED_p75": 3.125138370838747,
+        "WED_p95": 4.254927395357891,
+        "submission_comment": "test",
+        "datetime": "2024-05-27 13:52:19"
+      }
     },
     {
       "id": "b2310a37-1736-4902-8ae6-13838ec72999",
       "name": "rashmip98",
       "is_baseline": false,
-      "public": null,
-      "private": null
-    },
-    {
-      "id": "6efcb8c6-ab52-4f40-ac4e-b99bc2e94b3c",
-      "name": "beinganonymous",
-      "is_baseline": false,
-      "public": null,
-      "private": null
-    },
-    {
-      "id": "6bc84647-5186-4722-8dc8-74c184e0f6df",
-      "name": "Hunter-X",
-      "is_baseline": false,
-      "public": null,
-      "private": null
-    },
-    {
-      "id": "b221543c-eda6-411d-a7a5-2e40841605d0",
-      "name": "justuy",
-      "is_baseline": false,
-      "public": null,
-      "private": null
-    },
-    {
-      "id": "2317877e-4c7a-48ad-b6c8-2f2ebb3a9137",
-      "name": "WatsonTang98",
-      "is_baseline": false,
-      "public": null,
-      "private": null
-    },
-    {
-      "id": "6040213c-78b7-4e14-8f76-519da55ac302",
-      "name": "Bigmouth9",
-      "is_baseline": false,
-      "public": null,
-      "private": null
-    },
-    {
-      "id": "f66ee057-df48-46dc-8108-d59b724d03ce",
-      "name": "aadex",
-      "is_baseline": false,
-      "public": null,
-      "private": null
-    },
-    {
-      "id": "34c66027-c9d2-402e-99df-bf23c548b654",
-      "name": "corrosivelogic",
-      "is_baseline": false,
-      "public": null,
-      "private": null
-    },
-    {
-      "id": "bf79acca-87a1-471b-98d3-6e3202ed6215",
-      "name": "AgamP",
-      "is_baseline": false,
-      "public": null,
-      "private": null
-    },
-    {
-      "id": "b1c4aaf2-dc5e-4ee0-9e77-ce30d36bba3f",
-      "name": "bulkobubulko",
-      "is_baseline": false,
-      "public": null,
-      "private": null
+      "public": {
+        "WED2": 3.1252015454604565,
+        "WED_mu": 2.779286743110971,
+        "WED_p5": 1.7467210027285802,
+        "WED_p25": 2.2445871296332447,
+        "WED_p50": 2.6590738301664043,
+        "WED_p75": 3.1882518675176152,
+        "WED_p95": 3.937244063103994,
+        "submission_comment": "Test submission",
+        "datetime": "2024-05-28 03:59:32"
+      },
+      "private": {
+        "WED2": 3.19070440194629,
+        "WED_mu": 2.7259665498820396,
+        "WED_p5": 1.679447782982652,
+        "WED_p25": 2.2044201756742554,
+        "WED_p50": 2.5912192605989395,
+        "WED_p75": 3.125138370838747,
+        "WED_p95": 4.254927395357891,
+        "submission_comment": "Test submission",
+        "datetime": "2024-05-28 03:59:32"
+      }
     }
   ]
 }
