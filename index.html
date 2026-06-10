@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>S23DR 2024 — Overview</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="site-wrapper">
+  <header class="site-header">
+    <div class="site-logo"></div>
+    <div>
+      <div class="site-title">S23DR 2024 — Structured Semantic 3D Reconstruction</div>
+      <div class="site-subtitle">CVPR 2024 Workshop Challenge &middot; Competition closed &middot; Results archived</div>
+    </div>
+  </header>
+  <nav class="site-nav">
+    <a class="nav-item" href="index.html" data-page="index.html">Overview</a>
+    <a class="nav-item" href="dataset.html" data-page="dataset.html">Dataset</a>
+    <a class="nav-item" href="rules.html" data-page="rules.html">Rules</a>
+    <a class="nav-item" href="leaderboard.html" data-page="leaderboard.html">Leaderboard</a>
+  </nav>
+  <main class="site-body markdown-body" id="content">
+    <span class="content-loading">Loading…</span>
+  </main>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/marked@9/marked.min.js"></script>
+<script src="js/nav.js"></script>
+<script>
+  fetch('content/competition_desc.md')
+    .then(function (r) { return r.text(); })
+    .then(function (md) {
+      document.getElementById('content').innerHTML = marked.parse(md);
+    })
+    .catch(function () {
+      document.getElementById('content').textContent = 'Failed to load content.';
+    });
+</script>
+</body>
+</html>
