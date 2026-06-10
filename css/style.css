@@ -204,3 +204,30 @@ tr.baseline .comment-cell { color: #9ca3af; }
 .markdown-body a { color: #4f46e5; }
 
 .content-loading { color: #9ca3af; font-style: italic; padding: 20px 0; }
+
+/* ── Resource bar (dataset page) ───────────────────────────────── */
+.resource-bar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 10px 14px;
+  background: #f0f9ff;
+  border: 1px solid #bae6fd;
+  border-radius: 6px;
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+.resource-bar-label { font-weight: 600; color: #0369a1; }
+.resource-bar-sep { color: #9ca3af; }
+
+/* ── Solutions table ────────────────────────────────────────────── */
+.solutions-table { width: 100%; border-collapse: collapse; font-size: 13px; margin-top: 16px; }
+.solutions-table th { text-align: left; padding: 8px 12px; background: #f9fafb; border-bottom: 1px solid #e5e7eb; font-weight: 600; color: #374151; }
+.solutions-table td { padding: 10px 12px; border-bottom: 1px solid #f3f4f6; vertical-align: top; }
+.solutions-table tr:last-child td { border-bottom: none; }
+.solutions-table tr:hover td { background: #fafafa; }
+.solutions-table .rank-cell { font-size: 16px; white-space: nowrap; }
+.solutions-table .team-cell { font-weight: 600; }
+.solutions-table .link-btn { display: inline-block; padding: 3px 10px; border-radius: 4px; font-size: 12px; font-weight: 500; border: 1px solid #e5e7eb; color: #374151; margin-right: 6px; }
+.solutions-table .link-btn:hover { border-color: #6366f1; color: #6366f1; text-decoration: none; }
