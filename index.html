@@ -7,7 +7,7 @@
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f3f4f6; color: #1a1a1a; min-height: 100vh; display: flex; align-items: center; justify-content: center; }
-    .card { background: #fff; border-radius: 10px; box-shadow: 0 0 0 1px #e5e7eb; padding: 40px 48px; max-width: 480px; width: 100%; }
+    .card { background: #fff; border-radius: 10px; box-shadow: 0 0 0 1px #e5e7eb; padding: 40px 48px; max-width: 520px; width: 100%; }
     .logo { width: 44px; height: 44px; border-radius: 10px; background: linear-gradient(135deg, #22c55e 0%, #6366f1 100%); margin-bottom: 20px; }
     h1 { font-size: 1.25rem; font-weight: 700; margin-bottom: 6px; }
     .subtitle { font-size: 13px; color: #6b7280; margin-bottom: 28px; }
@@ -25,6 +25,16 @@
     .related-label { font-size: 11px; color: #9ca3af; text-transform: uppercase; letter-spacing: .05em; margin-bottom: 8px; }
     .related a { display: flex; align-items: center; justify-content: space-between; padding: 10px 14px; border: 1px solid #e5e7eb; border-radius: 8px; text-decoration: none; color: #1a1a1a; font-weight: 600; font-size: 13px; transition: border-color .15s, background .15s; }
     .related a:hover { border-color: #6366f1; background: #f5f3ff; }
+    .paper-card { display: flex; gap: 12px; padding: 12px 14px; border: 1px solid #e5e7eb; border-radius: 8px; }
+    .paper-thumb { width: 80px; height: 60px; object-fit: cover; border-radius: 4px; flex-shrink: 0; border: 1px solid #e5e7eb; }
+    .paper-info { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+    .paper-title { font-size: 13px; font-weight: 600; color: #1a1a1a; text-decoration: none; line-height: 1.35; }
+    .paper-title:hover { color: #6366f1; }
+    .paper-authors { font-size: 11px; color: #6b7280; line-height: 1.4; }
+    .paper-links { display: flex; gap: 6px; flex-wrap: wrap; }
+    .paper-links a, .paper-links button { font-size: 11px; color: #6b7280; text-decoration: none; padding: 2px 8px; border: 1px solid #e5e7eb; border-radius: 4px; background: none; cursor: pointer; font-family: inherit; transition: border-color .15s, color .15s; }
+    .paper-links a:hover, .paper-links button:hover { border-color: #6366f1; color: #6366f1; }
+    .bib-block { margin-top: 8px; padding: 10px 12px; background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 6px; font-family: 'SFMono-Regular', Consolas, monospace; font-size: 10.5px; line-height: 1.5; color: #374151; white-space: pre; overflow-x: auto; }
   </style>
 </head>
 <body>
@@ -71,6 +81,32 @@
         <span class="badge">↗</span>
       </a>
     </div>
+    <div class="related">
+      <div class="related-label">Papers</div>
+      <div class="paper-card">
+        <img src="images/hss.png" class="paper-thumb" alt="HSS metric — human preference study">
+        <div class="paper-info">
+          <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Langerman_Explaining_Human_Preferences_via_Metrics_for_Structured_3D_Reconstruction_ICCV_2025_paper.pdf" target="_blank" class="paper-title">HSS Metric &mdash; ICCV 2025</a>
+          <div class="paper-authors">Langerman, Rozumnyi, Huang, Mishkin</div>
+          <div class="paper-links">
+            <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Langerman_Explaining_Human_Preferences_via_Metrics_for_Structured_3D_Reconstruction_ICCV_2025_paper.pdf" target="_blank">PDF</a>
+            <a href="https://arxiv.org/abs/2503.08208" target="_blank">arXiv</a>
+            <a href="https://github.com/s23dr/wireframe-metrics-iccv2025" target="_blank">Code</a>
+            <button onclick="this.closest('.paper-info').querySelector('.bib-block').classList.toggle('hidden')">BibTeX</button>
+          </div>
+          <pre class="bib-block hidden">@inproceedings{langerman2025explaininghumanpreferencesmetrics,
+  title={Explaining Human Preferences via Metrics
+         for Structured 3D Reconstruction},
+  author={Jack Langerman and Denys Rozumnyi and
+          Yuzhong Huang and Dmytro Mishkin},
+  booktitle={ICCV},
+  year={2025},
+  url={https://arxiv.org/abs/2503.08208}
+}</pre>
+        </div>
+      </div>
+    </div>
   </div>
+  <style>.hidden { display: none; }</style>
 </body>
 </html>
